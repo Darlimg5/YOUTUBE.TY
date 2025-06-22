@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Downloader</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding-top: 50px; }
+        input, select, button { padding: 10px; margin: 10px; width: 300px; }
+    </style>
+</head>
+<body>
+    <h1>YouTube Downloader</h1>
+    <form method="post">
+        <input type="text" name="url" placeholder="Paste YouTube URL" required><br>
+        <select name="type">
+            <option value="audio">Download Audio (MP3)</option>
+            <option value="video">Download Video (MP4)</option>
+        </select><br>
+        <button type="submit">Download</button>
+    </form>
+</body>
+</html>
